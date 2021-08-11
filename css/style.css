@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    width: 80%;
+    margin:auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header{
+    
+}
+.linebreak {
+    background-image: url(images/hr-img.png);
+    background-repeat: repeat-x;
+    
+    
+
+    
+}
+header img{
+    float:left;
+        
+    }
+
+header>span{
+   display: inline; 
+   
+}
+header p{
+    
+   
+    
+}
