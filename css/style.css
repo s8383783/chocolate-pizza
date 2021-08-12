@@ -5,6 +5,8 @@
 body {
     width: 80%;
     margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 nav ul{
     display: flex;
@@ -108,11 +110,11 @@ section>ul {
     display: flex;
     background-image: url("/images/list-bg.png");
     height: 256px;
-    width: 950px;
+    width: 100%;
     justify-content: space-around;
     padding-top: 49px;
     margin-top: 20px;
-    
+    margin: 0 auto;
 }
 
 
@@ -126,6 +128,7 @@ main>p {
 
 footer {
     width:80%;
+    margin: 0  auto;
     /* display: flex;
     align-items: center; */
 }
@@ -148,8 +151,44 @@ section>img {
     justify-content:space-around;    
 } */
 
-button {
+.button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
+}
+button {
+    padding: 5px 9px 5px 9px;
+    background-color: red;
+    color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+ .lineOne {
+border: 1px black solid;
+height: 0;
+width:40%;
+margin-top: 20px;
+margin-right: 5px;
+
+}
+
+.lineTwo {
+    border: 1px black solid;
+    height: 0;
+    width:40%;
+    margin-top: 20px;
+    margin-left: 5px;
+} 
+
+.footerLogo {
+display: flex;
+justify-content:sp;
+}
+
+footer>p {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
 }
