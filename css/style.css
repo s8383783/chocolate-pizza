@@ -4,21 +4,40 @@
 }
 body {
     width: 80%;
-    margin:auto;
+    margin:0 auto;
 }
 nav ul{
     display: flex;
     justify-content: flex-end;
 }
 header{
-    
+    width: 80%;
+    margin: 0 auto;
 }
-.linebreak {
-    background-image: url(images/hr-img.png);
-    background-repeat: repeat-x;
-    
-    
 
+/* header>hr {
+    background-image: url(images/hr-img.png);
+    height: 6px;    
+} */
+
+span>h1 {
+    font-family: 'Style Script', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+span>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+}
+
+ header>p{
+    background-image: url("../images/hr-img.png");
+    width: 960px;
+    height: 5px;
+    background-repeat: repeat-x;
     
 }
 header img{
@@ -30,8 +49,107 @@ header>span{
    display: inline; 
    
 }
-header p{
+
+
+section>h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    /* padding: 20px; */
+}
+
+
+div>p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 10px;
+}
+
+.print {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section>div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+main>section img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.directions {
+    text-indent: 5%;
+    font-family:'Merriweather', serif;
+    color: grey;
+    line-height: 1.6;
+}
+
+/* 
+main section:nth-child(3) {
+    display: flex;
+    /* background-image: url("images/list-bg.png"); */
+    /* height: 250px;
+    width: 900px;
+    position: absolute;
+    z-index: auto;
+} */ 
+
+section>ul {
+    display: flex;
+    background-image: url("/images/list-bg.png");
+    height: 256px;
+    width: 950px;
+    justify-content: space-around;
+    padding-top: 49px;
+    margin-top: 20px;
     
-   
-    
+}
+
+
+main>p {
+    background-image: url("../images/hr-img.png");
+    width: 100%;
+    height: 5px;
+    background-repeat: repeat-x;
+    margin-top: 20px;
+}
+
+footer {
+    width:80%;
+    /* display: flex;
+    align-items: center; */
+}
+
+footer>span {
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    justify-content: start;
+}
+
+
+
+
+section>img {
+    float:left;
+}
+/* footer section:nth-child(1) {
+    display: flex;
+    justify-content:space-around;    
+} */
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
